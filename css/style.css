@@ -1,0 +1,151 @@
+/* <genral-classes> */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+html,body{
+    scroll-behavior: unset !important;
+}
+/* </genral-classes> */
+
+/* <home> */
+#Home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+#home-content h2 {
+  font-size: 3.75rem;
+}
+
+#leftMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: width 0.5s;
+  padding-top: 60px;
+}
+#leftMenu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: 15px;
+  transition: color 0.2s;
+}
+#leftMenu a:hover {
+    color: rgba(214, 46, 51 , 0.4);
+}
+#leftMenu .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2.1875rem;
+  cursor: pointer;
+}
+.openNav {
+  font-size: 1.875rem;
+  cursor: pointer;
+  top: 55%;
+}
+/* </home> */
+
+/* <slider> */
+
+#sliderDown div p {
+  padding: 0.625rem;
+}
+#sliderDown div h2 {
+  cursor: pointer;
+}
+#sliderDown div .content-of-singer {
+  overflow: hidden;
+  background-color: #ccc;
+  display: none;
+}
+#sliderDown div {
+  background-color: #e68285;
+}
+#sliderDown div .first-singer{
+    display: block;
+}
+/* </slider> */
+
+/* <counter> */
+#count {
+  background: linear-gradient(rgba(214, 46, 51 , 0.6), rgba(214, 46, 51 , 0.6)),
+  url("../images/invitation-2508607__340.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: fit-content;
+  position: relative;
+}
+
+.time-box {
+  padding: 50px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 1.875rem;
+  color: white;
+}
+/* </counter> */
+
+/* <contact> */
+#contact-us .head h2 {
+    text-transform: uppercase;
+    font-size: 2.1875rem;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.special-paragraph {
+    color: #777;
+    font-weight: 300;
+    text-align: center;
+    padding-block: .9375rem;
+}
+.con-info h3{
+    color: #444;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.icons .red{
+    color: #D62E33 ;
+}
+#contact-us .con-info .social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    color:#444;
+}
+.form-control{
+    --bs-border-radius:0;
+}
+.btn{
+    --bs-btn-border-radius: 0;
+}
+#chars{
+    color: #D62E33;
+}
+/* </contact> */
